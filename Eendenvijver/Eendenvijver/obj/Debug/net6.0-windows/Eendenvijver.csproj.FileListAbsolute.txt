@@ -1,0 +1,17 @@
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\bin\Debug\net6.0-windows\Eendenvijver.exe
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\bin\Debug\net6.0-windows\Eendenvijver.deps.json
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\bin\Debug\net6.0-windows\Eendenvijver.runtimeconfig.json
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\bin\Debug\net6.0-windows\Eendenvijver.dll
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\bin\Debug\net6.0-windows\Eendenvijver.pdb
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.csproj.AssemblyReference.cache
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.Form1.resources
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.csproj.GenerateResource.cache
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.AssemblyInfoInputs.cache
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.AssemblyInfo.cs
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.csproj.CoreCompileInputs.cache
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.dll
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\refint\Eendenvijver.dll
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.pdb
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\Eendenvijver.genruntimeconfig.cache
+C:\Users\yorischarnigg\source\repos\Eendenvijver\Eendenvijver\obj\Debug\net6.0-windows\ref\Eendenvijver.dll
