@@ -13,10 +13,10 @@ namespace Eendenvijver
 
         public Eend()
         { //premade eenden
-            Random rnd = new Random();
-            for (int i = 0; i < 3; i++)
+            Random rndGeslacht = new Random();
+            for (int i = 0; i <= 1; i++)
             {
-                Geslacht = (Geslacht)rnd.Next(3);
+                Geslacht = (Geslacht)rndGeslacht.Next(3);
             }
             GetGeslacht();
         }

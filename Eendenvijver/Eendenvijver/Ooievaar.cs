@@ -8,9 +8,36 @@ namespace Eendenvijver
 {
     internal class Ooievaar
     {
-        public bool EetKikker(Kikker kikker)
+        private Geslacht Geslacht;
+        private List<Kikker> gegetenKikkers = new List<Kikker>();
+
+        public List<Kikker> Kikkers
         {
-            return true;
+            get { return gegetenKikkers; }
+        }
+
+        public Ooievaar()
+        {
+            Random rndGeslacht = new Random();
+            for (int i = 0; i <= 1; i++)
+            {
+                Geslacht = (Geslacht)rndGeslacht.Next(3);
+            }
+            GetGeslacht();
+        }
+
+        public void GegetenKikker(Kikker kikker)
+        {
+
+            if (this.Geslacht == kikker.Geslacht)
+            {
+                gegetenKikkers.Add(kikker);
+            }
+        }
+
+        public Geslacht GetGeslacht()
+        {
+            return Geslacht;
         }
     }
 }

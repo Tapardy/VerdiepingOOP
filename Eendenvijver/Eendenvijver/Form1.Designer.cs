@@ -34,6 +34,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ButtonMaakEend = new System.Windows.Forms.Button();
             this.ListBoxGemaakteEenden = new System.Windows.Forms.ListBox();
+            this.ListBoxGemaakteKikkers = new System.Windows.Forms.ListBox();
+            this.LabelGeslachtEend = new System.Windows.Forms.Label();
+            this.LabelGeslachtKikker = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TextBoxGeslachtOoievaar = new System.Windows.Forms.TextBox();
+            this.ListBoxGegetenKikkers = new System.Windows.Forms.ListBox();
+            this.ButtonEetKikker = new System.Windows.Forms.Button();
+            this.LabelGegetenKikkers = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ComboBoxEendGeslacht
@@ -96,16 +104,96 @@
             // 
             this.ListBoxGemaakteEenden.FormattingEnabled = true;
             this.ListBoxGemaakteEenden.ItemHeight = 32;
-            this.ListBoxGemaakteEenden.Location = new System.Drawing.Point(505, 37);
+            this.ListBoxGemaakteEenden.Location = new System.Drawing.Point(505, 72);
             this.ListBoxGemaakteEenden.Name = "ListBoxGemaakteEenden";
-            this.ListBoxGemaakteEenden.Size = new System.Drawing.Size(240, 228);
+            this.ListBoxGemaakteEenden.Size = new System.Drawing.Size(271, 228);
             this.ListBoxGemaakteEenden.TabIndex = 6;
+            // 
+            // ListBoxGemaakteKikkers
+            // 
+            this.ListBoxGemaakteKikkers.FormattingEnabled = true;
+            this.ListBoxGemaakteKikkers.ItemHeight = 32;
+            this.ListBoxGemaakteKikkers.Location = new System.Drawing.Point(40, 495);
+            this.ListBoxGemaakteKikkers.Name = "ListBoxGemaakteKikkers";
+            this.ListBoxGemaakteKikkers.Size = new System.Drawing.Size(263, 324);
+            this.ListBoxGemaakteKikkers.TabIndex = 7;
+            // 
+            // LabelGeslachtEend
+            // 
+            this.LabelGeslachtEend.AutoSize = true;
+            this.LabelGeslachtEend.Location = new System.Drawing.Point(505, 37);
+            this.LabelGeslachtEend.Name = "LabelGeslachtEend";
+            this.LabelGeslachtEend.Size = new System.Drawing.Size(271, 32);
+            this.LabelGeslachtEend.TabIndex = 8;
+            this.LabelGeslachtEend.Text = "Geslacht van de eenden";
+            // 
+            // LabelGeslachtKikker
+            // 
+            this.LabelGeslachtKikker.AutoSize = true;
+            this.LabelGeslachtKikker.Location = new System.Drawing.Point(40, 460);
+            this.LabelGeslachtKikker.Name = "LabelGeslachtKikker";
+            this.LabelGeslachtKikker.Size = new System.Drawing.Size(263, 32);
+            this.LabelGeslachtKikker.TabIndex = 9;
+            this.LabelGeslachtKikker.Text = "Geslacht van de kikkers";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(423, 460);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(281, 32);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Geslacht van de ooievaar";
+            // 
+            // TextBoxGeslachtOoievaar
+            // 
+            this.TextBoxGeslachtOoievaar.Location = new System.Drawing.Point(423, 495);
+            this.TextBoxGeslachtOoievaar.Name = "TextBoxGeslachtOoievaar";
+            this.TextBoxGeslachtOoievaar.ReadOnly = true;
+            this.TextBoxGeslachtOoievaar.Size = new System.Drawing.Size(281, 39);
+            this.TextBoxGeslachtOoievaar.TabIndex = 11;
+            // 
+            // ListBoxGegetenKikkers
+            // 
+            this.ListBoxGegetenKikkers.FormattingEnabled = true;
+            this.ListBoxGegetenKikkers.ItemHeight = 32;
+            this.ListBoxGegetenKikkers.Location = new System.Drawing.Point(814, 495);
+            this.ListBoxGegetenKikkers.Name = "ListBoxGegetenKikkers";
+            this.ListBoxGegetenKikkers.Size = new System.Drawing.Size(240, 324);
+            this.ListBoxGegetenKikkers.TabIndex = 12;
+            // 
+            // ButtonEetKikker
+            // 
+            this.ButtonEetKikker.Location = new System.Drawing.Point(483, 573);
+            this.ButtonEetKikker.Name = "ButtonEetKikker";
+            this.ButtonEetKikker.Size = new System.Drawing.Size(150, 46);
+            this.ButtonEetKikker.TabIndex = 13;
+            this.ButtonEetKikker.Text = "Eet kikkers";
+            this.ButtonEetKikker.UseVisualStyleBackColor = true;
+            this.ButtonEetKikker.Click += new System.EventHandler(this.ButtonEetKikker_Click);
+            // 
+            // LabelGegetenKikkers
+            // 
+            this.LabelGegetenKikkers.AutoSize = true;
+            this.LabelGegetenKikkers.Location = new System.Drawing.Point(814, 460);
+            this.LabelGegetenKikkers.Name = "LabelGegetenKikkers";
+            this.LabelGegetenKikkers.Size = new System.Drawing.Size(185, 32);
+            this.LabelGegetenKikkers.TabIndex = 14;
+            this.LabelGegetenKikkers.Text = "Gegeten kikkers";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1037, 647);
+            this.ClientSize = new System.Drawing.Size(1223, 887);
+            this.Controls.Add(this.LabelGegetenKikkers);
+            this.Controls.Add(this.ButtonEetKikker);
+            this.Controls.Add(this.ListBoxGegetenKikkers);
+            this.Controls.Add(this.TextBoxGeslachtOoievaar);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.LabelGeslachtKikker);
+            this.Controls.Add(this.LabelGeslachtEend);
+            this.Controls.Add(this.ListBoxGemaakteKikkers);
             this.Controls.Add(this.ListBoxGemaakteEenden);
             this.Controls.Add(this.ButtonMaakEend);
             this.Controls.Add(this.label2);
@@ -127,5 +215,13 @@
         private Label label2;
         private Button ButtonMaakEend;
         private ListBox ListBoxGemaakteEenden;
+        private ListBox ListBoxGemaakteKikkers;
+        private Label LabelGeslachtEend;
+        private Label LabelGeslachtKikker;
+        private Label label3;
+        private TextBox TextBoxGeslachtOoievaar;
+        private ListBox ListBoxGegetenKikkers;
+        private Button ButtonEetKikker;
+        private Label LabelGegetenKikkers;
     }
 }
